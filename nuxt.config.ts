@@ -24,7 +24,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt'
   ],
     sitemap: {
-    siteUrl: 'https://yourdomain.com',
+    siteUrl: 'https://codelab.it-advanced-technology.com/',
     routes: [
       '/', // ACCUEIL
       '/cours-programmation',
@@ -54,6 +54,8 @@ export default defineNuxtConfig({
       '/not-found'
     ]
   },
-  css: ['bootstrap/dist/css/bootstrap.min.css'],
+  css: ['bootstrap/dist/css/bootstrap.min.css',
+    '@/assets/style/style.css'
+  ],
 
 })

@@ -4,13 +4,20 @@ import 'firebase/compat/firestore'
 import 'firebase/compat/auth'
 
 export const config = {
-  apiKey: 'AIzaSyAkN8jS56yewgvWxHROexKPCPBxJgWAhg4',
-  authDomain: 'ict-2022.firebaseapp.com',
-  projectId: 'ict-2022',
-  storageBucket: 'ict-2022.appspot.com',
-  messagingSenderId: '215040538367',
-  appId: '1:215040538367:web:3f986d47d5dbb9615b7eca',
-  measurementId: 'G-3QW447FD9C'
+  apiKey: "AIzaSyCof0afP-LZE15x4Hp3dEDZYD2RLZFixsc",
+
+  authDomain: "it-codelab.firebaseapp.com",
+
+  projectId: "it-codelab",
+
+  storageBucket: "it-codelab.firebasestorage.app",
+
+  messagingSenderId: "393096720502",
+
+  appId: "1:393096720502:web:67ea32d593b0a00d72af57",
+
+  measurementId: "G-39W2VS7V6J"
+
 }
 
 // Get a Firestore instance
