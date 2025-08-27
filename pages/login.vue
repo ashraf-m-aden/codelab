@@ -74,9 +74,9 @@
 import { ref, computed } from "vue";
 import { useAuthStore } from "./../store/user";
 import { useNotificationStore } from "./../store/notif";
-import { useRouter } from "nuxt/app";
+//import { useRouter } from "nuxt/app";
 
-const router = useRouter();
+//const router = useRouter();
 const ustore = useAuthStore();
 const nstore = useNotificationStore();
 
@@ -87,10 +87,13 @@ const isDisabled = computed(() => !email.value || !password.value);
 
 const login = async () => {
   try {
-    await ustore.login(email.value, password.value);
-    router.push("/");
-  } catch (error) {
-    nstore.successNotif("Bienvenue");
+   const us =  await ustore.login(email.value, password.value);
+   console.log(us);
+   
+  //  router.push("/");
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  } catch (error:any) {
+    nstore.successNotif(error.message || "Erreur inconnue" );
   }
 };
 </script>

@@ -21,10 +21,16 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/icon',
     '@nuxt/image',
-    '@pinia/nuxt'
+    '@pinia/nuxt',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/seo',
+    'nuxt-toast',
   ],
-    sitemap: {
-    siteUrl: 'https://codelab.it-advanced-technology.com/',
+   site: {
+      url: 'https://codelab.it-advanced-technology.com'
+    },
+  sitemap: {
+    crawlLinks: true, // automatically find all pages
     routes: [
       '/', // ACCUEIL
       '/cours-programmation',
@@ -35,7 +41,6 @@ export default defineNuxtConfig({
       '/cours-programmation/java',
       '/cours-programmation/node',
       '/cours-programmation/mysql',
-
       '/cours-reseaux-systemes',
       '/cours-reseaux-systemes/linux',
       '/cours-reseaux-systemes/fondamentaux-reseaux',
@@ -45,7 +50,6 @@ export default defineNuxtConfig({
       '/cours-reseaux-systemes/installation-windows',
       '/cours-reseaux-systemes/admin-serveur',
       '/cours-reseaux-systemes/bureautique',
-
       '/a-propos',
       '/contact',
       '/enroll',

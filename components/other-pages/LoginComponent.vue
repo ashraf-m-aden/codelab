@@ -10,14 +10,14 @@
                 </div>
 			</div>
 			
-			<div class="shape1"><img src="assets/img/shape1.png" alt="shape"></div>
-			<div class="shape2 rotateme"><img src="assets/img/shape2.svg" alt="shape"></div>
-			<div class="shape3"><img src="assets/img/shape3.svg" alt="shape"></div>
-			<div class="shape4"><img src="assets/img/shape4.svg" alt="shape"></div>
-			<div class="shape5"><img src="assets/img/shape5.png" alt="shape"></div>
-			<div class="shape6 rotateme"><img src="assets/img/shape4.svg" alt="shape"></div>
-			<div class="shape7"><img src="assets/img/shape4.svg" alt="shape"></div>
-			<div class="shape8 rotateme"><img src="assets/img/shape2.svg" alt="shape"></div>
+			<div class="shape1"><img src="~/assets/img/shape1.png" alt="shape"></div>
+			<div class="shape2 rotateme"><img src="~/assets/img/shape2.svg" alt="shape"></div>
+			<div class="shape3"><img src="~/assets/img/shape3.svg" alt="shape"></div>
+			<div class="shape4"><img src="~/assets/img/shape4.svg" alt="shape"></div>
+			<div class="shape5"><img src="~/assets/img/shape5.png" alt="shape"></div>
+			<div class="shape6 rotateme"><img src="~/assets/img/shape4.svg" alt="shape"></div>
+			<div class="shape7"><img src="~/assets/img/shape4.svg" alt="shape"></div>
+			<div class="shape8 rotateme"><img src="~/assets/img/shape2.svg" alt="shape"></div>
         </div>
         <!-- End Page Title -->
 
@@ -30,27 +30,27 @@
                             <div class="mb-3">
                                 <label for="" class="form-label">Email</label>
                                 <input
+                                    id=""
+                                    v-model="email"
                                     type="email"
                                     class="form-control"
                                     name=""
-                                    id=""
                                     aria-describedby="emailHelpId"
                                     placeholder="abc@mail.com"
-                                    v-model="email"
 
-                                />
+                                >
                               
                             </div>
                             <div class="mb-3">
                                 <label for="" class="form-label">Mot de passe</label>
                                 <input
+                                    id=""
+                                    v-model="password"
                                     type="password"
                                     class="form-control"
                                     name=""
-                                    id=""
                                     placeholder="****"
-                                    v-model="password"
-                                    />
+                                    >
                             </div>
                             <button type="submit" class="btn btn-primary" :disabled="isDisabled" @click="login()">
                                 Save
@@ -63,12 +63,12 @@
                 </div>
             </div>
 
-			<div class="shape2 rotateme"><img src="assets/img/shape2.svg" alt="shape"></div>
-			<div class="shape3"><img src="assets/img/shape3.svg" alt="shape"></div>
-			<div class="shape4"><img src="assets/img/shape4.svg" alt="shape"></div>
-			<div class="shape6 rotateme"><img src="assets/img/shape4.svg" alt="shape"></div>
-			<div class="shape7"><img src="assets/img/shape4.svg" alt="shape"></div>
-            <div class="shape8 rotateme"><img src="assets/img/shape2.svg" alt="shape"></div>
+			<div class="shape2 rotateme"><img src="~/assets/img/shape2.svg" alt="shape"></div>
+			<div class="shape3"><img src="~/assets/img/shape3.svg" alt="shape"></div>
+			<div class="shape4"><img src="~/assets/img/shape4.svg" alt="shape"></div>
+			<div class="shape6 rotateme"><img src="~/assets/img/shape4.svg" alt="shape"></div>
+			<div class="shape7"><img src="~/assets/img/shape4.svg" alt="shape"></div>
+            <div class="shape8 rotateme"><img src="~/assets/img/shape2.svg" alt="shape"></div>
         </div>
         <!-- End Services Area -->
     </div>
@@ -76,9 +76,9 @@
 
 <script setup lang="ts">
 import { computed, ref } from 'vue';
-import { useAuthStore } from '../../../store/user';
 import { useRouter } from 'vue-router';
-import { useNotificationStore } from '../../../store/notif';
+import { useNotificationStore } from '~/store/notif';
+import { useAuthStore } from '~/store/user';
 
 const ustore = useAuthStore()
 const nstore = useNotificationStore()
@@ -100,6 +100,7 @@ const login = async () =>{
    try {
     await ustore.login(email.value,password.value)
     router.push('/')
+   // eslint-disable-next-line @typescript-eslint/no-unused-vars
    } catch (error) {
     nstore.successNotif("Bienvenue")
 

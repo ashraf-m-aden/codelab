@@ -11,28 +11,28 @@
       </div>
 
       <div class="shape1">
-        <img src="assets/img/shape1.png" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape1.png" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape2 rotateme">
-        <img src="assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape3">
-        <img src="assets/img/shape3.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape3.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape4">
-        <img src="assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape5">
-        <img src="assets/img/shape5.png" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape5.png" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape6 rotateme">
-        <img src="assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape7">
-        <img src="assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape8 rotateme">
-        <img src="assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
     </div>
     <!-- End Page Title -->
@@ -43,7 +43,7 @@
         <div class="row">
           <div class="col-lg-6 col-md-12">
             <div class="about-image">
-              <img src="assets/img/1.png" alt="IT+ Code Lab" />
+              <img src="~/assets/img/1.png" alt="IT+ Code Lab" />
             </div>
           </div>
 

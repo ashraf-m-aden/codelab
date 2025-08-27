@@ -4,17 +4,17 @@
     <div class="container">
       <div class="row h-100 justify-content-center align-items-center">
         <div class="col-lg-6 col-md-12 services-left-image">
-          <img src="assets/img/services-left-image/big-monitor.png" class="wow fadeInDown" alt="big-monitor" />
-          <img src="assets/img/services-left-image/creative.png" class="wow fadeInUp" alt="creative" />
-          <img src="assets/img/services-left-image/developer.png" class="wow fadeInLeft" alt="developer" />
-          <img src="assets/img/services-left-image/flower-top.png" class="wow zoomIn" alt="flower-top" />
-          <img src="assets/img/services-left-image/small-monitor.png" class="wow bounceIn" alt="small-monitor" />
-          <img src="assets/img/services-left-image/small-top.png" class="wow fadeInDown" alt="small-top" />
-          <img src="assets/img/services-left-image/table.png" class="wow zoomIn" alt="table" />
-          <img src="assets/img/services-left-image/target.png" class="wow fadeInUp" alt="target" />
-          <img src="assets/img/services-left-image/cercle-shape.png" class="bg-image rotateme" alt="Codelab IT+ formation cours informatique djibouti" />
+          <img src="~/assets/img/services-left-image/big-monitor.png" class="wow fadeInDown" alt="big-monitor" />
+          <img src="~/assets/img/services-left-image/creative.png" class="wow fadeInUp" alt="creative" />
+          <img src="~/assets/img/services-left-image/developer.png" class="wow fadeInLeft" alt="developer" />
+          <img src="~/assets/img/services-left-image/flower-top.png" class="wow zoomIn" alt="flower-top" />
+          <img src="~/assets/img/services-left-image/small-monitor.png" class="wow bounceIn" alt="small-monitor" />
+          <img src="~/assets/img/services-left-image/small-top.png" class="wow fadeInDown" alt="small-top" />
+          <img src="~/assets/img/services-left-image/table.png" class="wow zoomIn" alt="table" />
+          <img src="~/assets/img/services-left-image/target.png" class="wow fadeInUp" alt="target" />
+          <img src="~/assets/img/services-left-image/cercle-shape.png" class="bg-image rotateme" alt="Codelab IT+ formation cours informatique djibouti" />
 
-          <img src="assets/img/services-left-image/main-pic.png" class="wow fadeInUp" alt="main-pic" />
+          <img src="~/assets/img/services-left-image/main-pic.png" class="wow fadeInUp" alt="main-pic" />
         </div>
 
         <div class="col-lg-6 col-md-12 services-content">

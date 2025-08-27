@@ -7,7 +7,7 @@
           <div class="single-footer-widget">
             <div class="logo">
               <a href="/">
-                <img src="assets/img/logo.svg" alt="IT+ Code Lab" >
+                <img src="~/assets/img/logo.svg" alt="IT+ Code Lab" >
               </a>
             </div>
             <p>
@@ -91,12 +91,12 @@
       </div>
     </div>
 
-    <img src="assets/img/map.png" class="map" alt="map" >
+    <img src="~/assets/img/map.png" class="map" alt="map" >
     <div class="shape1">
-      <img src="assets/img/shape1.png" alt="Codelab IT+ formation cours informatique djibouti" >
+      <img src="~/assets/img/shape1.png" alt="Codelab IT+ formation cours informatique djibouti" >
     </div>
     <div class="shape8 rotateme">
-      <img src="assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" >
+      <img src="~/assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" >
     </div>
     <!-- <div class="go-top"><vue-feather type="arrow-up"></vue-feather></div> -->
 

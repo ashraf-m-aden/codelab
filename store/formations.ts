@@ -25,12 +25,15 @@ export const formationStore = defineStore('formation', () => {
     return JSON.parse(JSON.stringify(toRaw(data)))
   }
 
-  const retrieveAllFormation = async () => {
-    await FormationService.getAllFormations().then((data: FormationType[]) => {
-      formationDispo.value = data.filter((f) => { return f.inscription })
-      allFormation.value = data
-    })
+const retrieveAllFormation = async () => {
+  try {
+    const data: FormationType[] = await FormationService.getAllFormations()
+    allFormation.value = data
+    formationDispo.value = data.filter(f => f.enabled)
+  } catch (error) {
+    console.error('Erreur lors de la récupération des formations :', error)
   }
+}
 
   const addFormation = async (formation:FormationType) => {
     await FormationService.addFormation(convertToJson(formation)).then(async () => {
@@ -45,7 +48,7 @@ export const formationStore = defineStore('formation', () => {
   }
 
   const updateFormation = async (formation:FormationType) => {
-    await FormationService.updateformation(convertToJson(formation)).then(async () => {
+    await FormationService.updateFormation(convertToJson(formation)).then(async () => {
       await retrieveAllFormation()
     })
   }

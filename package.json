@@ -24,7 +24,6 @@
     "it-com3": "file:",
     "jquery": "^3.7.1",
     "lightgallery": "^2.8.2",
-    "nuxt": "^4.0.3",
     "odometer": "^0.4.8",
     "pinia": "^3.0.3",
     "vue-cool-lightbox": "^2.7.5",
@@ -34,10 +33,14 @@
     "vue3-carousel": "^0.12.0"
   },
   "devDependencies": {
+    "@nuxtjs/seo": "^3.1.0",
+    "@nuxtjs/sitemap": "^7.4.3",
     "@types/bootstrap": "^5.2.10",
     "@types/node": "^24.3.0",
     "@vite-pwa/nuxt": "^0.4.0",
-    "nuxt": "^3.8.0",
+    "izitoast": "^1.4.0",
+    "nuxt": "^4.0.3",
+    "nuxt-toast": "^1.1.4",
     "sass": "^1.72.0",
     "sass-loader": "^13.3.2",
     "typescript": "^5.9.2",

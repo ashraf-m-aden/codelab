@@ -27,22 +27,22 @@
 
             <div class="col-lg-6 offset-lg-1">
               <div class="banner-image">
-                <img src="assets/img/banner-image/man.png" class="wow fadeInDown" alt="man" >
-                <img src="assets/img/banner-image/code.png" class="wow fadeInUp" alt="code" >
-                <img src="assets/img/banner-image/carpet.png" class="wow fadeInLeft" alt="carpet" >
-                <img src="assets/img/banner-image/bin.png" class="wow zoomIn" alt="bin" >
-                <img src="assets/img/banner-image/book.png" class="wow bounceIn" alt="book" >
-                <img src="assets/img/banner-image/dekstop.png" class="wow fadeInDown" alt="dekstop" >
-                <img src="assets/img/banner-image/dot.png" class="wow zoomIn" alt="dot" >
-                <img src="assets/img/banner-image/flower-top-big.png" class="wow fadeInUp" alt="flower-top-big" >
-                <img src="assets/img/banner-image/flower-top.png" class="wow rotateIn" alt="flower-top" >
-                <img src="assets/img/banner-image/keyboard.png" class="wow fadeInUp" alt="keyboard" >
-                <img src="assets/img/banner-image/pen.png" class="wow zoomIn" alt="pen" >
-                <img src="assets/img/banner-image/table.png" class="wow zoomIn" alt="table" >
-                <img src="assets/img/banner-image/tea-cup.png" class="wow fadeInLeft" alt="tea-cup" >
-                <img src="assets/img/banner-image/headphone.png" class="wow rollIn" alt="headphone" >
+                <img src="~/assets/img/banner-image/man.png" class="wow fadeInDown" alt="man" >
+                <img src="~/assets/img/banner-image/code.png" class="wow fadeInUp" alt="code" >
+                <img src="~/assets/img/banner-image/carpet.png" class="wow fadeInLeft" alt="carpet" >
+                <img src="~/assets/img/banner-image/bin.png" class="wow zoomIn" alt="bin" >
+                <img src="~/assets/img/banner-image/book.png" class="wow bounceIn" alt="book" >
+                <img src="~/assets/img/banner-image/dekstop.png" class="wow fadeInDown" alt="dekstop" >
+                <img src="~/assets/img/banner-image/dot.png" class="wow zoomIn" alt="dot" >
+                <img src="~/assets/img/banner-image/flower-top-big.png" class="wow fadeInUp" alt="flower-top-big" >
+                <img src="~/assets/img/banner-image/flower-top.png" class="wow rotateIn" alt="flower-top" >
+                <img src="~/assets/img/banner-image/keyboard.png" class="wow fadeInUp" alt="keyboard" >
+                <img src="~/assets/img/banner-image/pen.png" class="wow zoomIn" alt="pen" >
+                <img src="~/assets/img/banner-image/table.png" class="wow zoomIn" alt="table" >
+                <img src="~/assets/img/banner-image/tea-cup.png" class="wow fadeInLeft" alt="tea-cup" >
+                <img src="~/assets/img/banner-image/headphone.png" class="wow rollIn" alt="headphone" >
 
-                <img src="assets/img/banner-image/main-pic.png" class="wow fadeInUp" alt="main-pic" >
+                <img src="~/assets/img/banner-image/main-pic.png" class="wow fadeInUp" alt="main-pic" >
               </div>
             </div>
           </div>
@@ -51,28 +51,28 @@
     </div>
 
     <div class="shape1">
-      <img src="assets/img/shape1.png" alt="Codelab IT+ formation cours informatique djibouti" >
+      <img src="~/assets/img/shape1.png" alt="Codelab IT+ formation cours informatique djibouti" >
     </div>
     <div class="shape2 rotateme">
-      <img src="assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" >
+      <img src="~/assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" >
     </div>
     <div class="shape3">
-      <img src="assets/img/shape3.svg" alt="Codelab IT+ formation cours informatique djibouti" >
+      <img src="~/assets/img/shape3.svg" alt="Codelab IT+ formation cours informatique djibouti" >
     </div>
     <div class="shape4">
-      <img src="assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" >
+      <img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" >
     </div>
     <div class="shape5">
-      <img src="assets/img/shape5.png" alt="Codelab IT+ formation cours informatique djibouti" >
+      <img src="~/assets/img/shape5.png" alt="Codelab IT+ formation cours informatique djibouti" >
     </div>
     <div class="shape6 rotateme">
-      <img src="assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" >
+      <img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" >
     </div>
     <div class="shape7">
-      <img src="assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" >
+      <img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" >
     </div>
     <div class="shape8 rotateme">
-      <img src="assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" >
+      <img src="~/assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" >
     </div>
   </div>
   <!-- End Main Banner -->

@@ -8065,7 +8065,7 @@ Footer CSS
 =================================================*/
 .footer-area {
   position: relative;
-  z-index: 1;
+  z-index: -1;
   padding-top: 80px;
 }
 

@@ -78,22 +78,22 @@
         </div>
 
         <div class="col-lg-6 col-md-12 services-right-image">
-          <img src="assets/img/services-right-image/book-self.png" class="wow fadeInDown" alt="book-self" >
-          <img src="assets/img/services-right-image/box.png" class="wow fadeInUp" alt="box" >
-          <img src="assets/img/services-right-image/chair.png" class="wow fadeInLeft" alt="chair" >
-          <img src="assets/img/services-right-image/cloud.png" class="wow zoomIn" alt="cloud" >
-          <img src="assets/img/services-right-image/cup.png" class="wow bounceIn" alt="cup" >
-          <img src="assets/img/services-right-image/flower-top.png" class="wow fadeInDown" alt="flower" >
-          <img src="assets/img/services-right-image/head-phone.png" class="wow zoomIn" alt="head-phone" >
-          <img src="assets/img/services-right-image/monitor.png" class="wow fadeInUp" alt="monitor" >
-          <img src="assets/img/services-right-image/mug.png" class="wow rotateIn" alt="mug" >
-          <img src="assets/img/services-right-image/table.png" class="wow fadeInUp" alt="table" >
-          <img src="assets/img/services-right-image/tissue.png" class="wow zoomIn" alt="tissue" >
-          <img src="assets/img/services-right-image/water-bottle.png" class="wow zoomIn" alt="water-bottle" >
-          <img src="assets/img/services-right-image/wifi.png" class="wow fadeInLeft" alt="wifi" >
-          <img src="assets/img/services-right-image/cercle-shape.png" class="bg-image rotateme" alt="Codelab IT+ formation cours informatique djibouti" >
+          <img src="~/assets/img/services-right-image/book-self.png" class="wow fadeInDown" alt="book-self" >
+          <img src="~/assets/img/services-right-image/box.png" class="wow fadeInUp" alt="box" >
+          <img src="~/assets/img/services-right-image/chair.png" class="wow fadeInLeft" alt="chair" >
+          <img src="~/assets/img/services-right-image/cloud.png" class="wow zoomIn" alt="cloud" >
+          <img src="~/assets/img/services-right-image/cup.png" class="wow bounceIn" alt="cup" >
+          <img src="~/assets/img/services-right-image/flower-top.png" class="wow fadeInDown" alt="flower" >
+          <img src="~/assets/img/services-right-image/head-phone.png" class="wow zoomIn" alt="head-phone" >
+          <img src="~/assets/img/services-right-image/monitor.png" class="wow fadeInUp" alt="monitor" >
+          <img src="~/assets/img/services-right-image/mug.png" class="wow rotateIn" alt="mug" >
+          <img src="~/assets/img/services-right-image/table.png" class="wow fadeInUp" alt="table" >
+          <img src="~/assets/img/services-right-image/tissue.png" class="wow zoomIn" alt="tissue" >
+          <img src="~/assets/img/services-right-image/water-bottle.png" class="wow zoomIn" alt="water-bottle" >
+          <img src="~/assets/img/services-right-image/wifi.png" class="wow fadeInLeft" alt="wifi" >
+          <img src="~/assets/img/services-right-image/cercle-shape.png" class="bg-image rotateme" alt="Codelab IT+ formation cours informatique djibouti" >
 
-          <img src="assets/img/services-right-image/main-pic.png" class="wow fadeInUp" alt="main-pic" >
+          <img src="~/assets/img/services-right-image/main-pic.png" class="wow fadeInUp" alt="main-pic" >
         </div>
       </div>
     </div>

@@ -44,7 +44,7 @@ const toTopFunction = () => {
 
 onMounted(async () => {
   await fstore.retrieveAllFormation();
-  await ustore.checkAuth();
+  ustore.checkAuth();
 });
 
 const currentUrl = ref("");

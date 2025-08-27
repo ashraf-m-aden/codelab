@@ -11,28 +11,28 @@
       </div>
 
       <div class="shape1">
-        <img src="assets/img/shape1.png" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape1.png" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape2 rotateme">
-        <img src="assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape3">
-        <img src="assets/img/shape3.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape3.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape4">
-        <img src="assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape5">
-        <img src="assets/img/shape5.png" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape5.png" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape6 rotateme">
-        <img src="assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape7">
-        <img src="assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape8 rotateme">
-        <img src="assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
     </div>
     <!-- End Page Title -->
@@ -47,7 +47,7 @@
               @click="goPage('/cours-reseaux-systemes/fondamentaux-reseaux')"
             >
               <img
-                src="assets/img/courses/fondamentaux.jpeg"
+                src="~/assets/img/courses/fondamentaux.jpeg"
                 alt="IT+ Code Lab"
               />
 
@@ -69,7 +69,7 @@
               @click="goPage('/cours-reseaux-systemes/reseaux-avances')"
             >
               <img
-                src="assets/img/courses/ccna.jpeg"
+                src="~/assets/img/courses/ccna.jpeg"
                 alt="IT+ Code Lab"
               />
 
@@ -90,7 +90,7 @@
               @click="goPage('/cours-reseaux-systemes/gns3')"
             >
               <img
-                src="assets/img/courses/gns3.jpeg"
+                src="~/assets/img/courses/gns3.jpeg"
                 alt="IT+ Code Lab"
               />
 
@@ -110,7 +110,7 @@
               @click="goPage('/cours-reseaux-systemes/securite-informatique')"
             >
               <img
-                src="assets/img/courses/security.jpeg"
+                src="~/assets/img/courses/security.jpeg"
                 alt="IT+ Code Lab"
               />
 
@@ -132,7 +132,7 @@
               @click="goPage('/cours-reseaux-systemes/installation-windows')"
             >
               <img
-                src="assets/img/courses/windows.jpeg"
+                src="~/assets/img/courses/windows.jpeg"
                 alt="IT+ Code Lab"
               />
 
@@ -158,7 +158,7 @@
               @click="goPage('cours-reseaux-systemes/admin-serveur')"
             >
               <img
-                src="assets/img/courses/winserverr.jpeg"
+                src="~/assets/img/courses/winserverr.jpeg"
                 alt="IT+ Code Lab"
               />
 
@@ -182,7 +182,7 @@
               @click="goPage('/cours-reseaux-systemes/linux')"
             >
               <img
-                src="assets/img/courses/LINUX-LOGO.png"
+                src="~/assets/img/courses/LINUX-LOGO.png"
                 alt="IT+ Code Lab"
               />
 
@@ -202,7 +202,7 @@
               @click="goPage('/cours-reseaux-systemes/bureautique')"
             >
               <img
-                src="assets/img/courses/Office_logos.jpg"
+                src="~/assets/img/courses/Office_logos.jpg"
                 alt="IT+ Code Lab"
               />
 
@@ -220,22 +220,22 @@
       </div>
 
       <div class="shape2 rotateme">
-        <img src="assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape3">
-        <img src="assets/img/shape3.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape3.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape4">
-        <img src="assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape6 rotateme">
-        <img src="assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape7">
-        <img src="assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape8 rotateme">
-        <img src="assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" />
+        <img src="~/assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
     </div>
     <!-- End Services Area -->
