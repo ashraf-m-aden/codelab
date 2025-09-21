@@ -262,7 +262,7 @@ import type { UserType } from '~/types/user'
 definePageMeta({
   ssr: false})
 useHead({
-  title: 'Inscription - IT+ CODE LAB',
+  title: 'Inscription ',
   meta: [
     { name: 'description', content: 'Inscrivez-vous à nos formations disponibles. | Code Lab | Cours et Formations en informatique à Djibouti' },
     { name: 'keywords', content: 'formation,Code Lab,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, programmation, réseaux, cours, codelab, it+' }

@@ -125,7 +125,7 @@
 
 <script setup>
 useHead({
-  title: "MYSQL - IT+ CODE LAB",
+  title: "MYSQL ",
   meta: [
     { name: "description", content: "Nos formations en base de données vont vous intéresser ! | Code Lab | Cours et Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,mysql,base de données,programmation,cours,Djibouti" }

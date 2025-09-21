@@ -135,7 +135,7 @@
 <script setup lang="ts">
 import { useHead } from "nuxt/app";
 useHead({
-  title: "Formation Bureautique - IT+ CODE LAB",
+  title: "Formation Bureautique ",
   meta: [
     { name: "description", content: "Optimisez votre productivité avec nos formations en bureautique : Word, Excel, PowerPoint et plus encore. | Code Lab | Cours et Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,bureautique,word,excel,powerpoint,cours,Djibouti" }

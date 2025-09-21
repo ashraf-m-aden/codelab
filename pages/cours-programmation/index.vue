@@ -96,7 +96,7 @@ const router = useRouter()
 const goPage = (url: string) => router.push(url)
 
 useHead({
-  title: 'PROGRAMMATION - IT+ CODE LAB',
+  title: 'PROGRAMMATION ',
   meta: [
     {
       name: 'description',

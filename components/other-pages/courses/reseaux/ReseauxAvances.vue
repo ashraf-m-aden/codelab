@@ -140,7 +140,7 @@
 <script setup>
 
 useHead({
-  title: "Réseaux Avancés - IT+ CODE LAB",
+  title: "Réseaux Avancés ",
   meta: [
     { name: "description", content: "Approfondissez vos connaissances en réseaux informatiques et maîtrisez les architectures avancées. | Code Lab | Cours et Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,réseaux,avancés,informatique,cours,Djibouti,codelab" }

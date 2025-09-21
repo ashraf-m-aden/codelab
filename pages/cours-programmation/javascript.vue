@@ -168,7 +168,7 @@
 </template>
 <script setup>
 useHead({
-  title: "JAVASCRIPT - IT+ CODE LAB",
+  title: "JAVASCRIPT ",
   meta: [
     {
       name: "description",

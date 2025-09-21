@@ -150,7 +150,7 @@
 
 
 useHead({
-  title: 'Sécurité Informatique - IT+ CODE LAB',
+  title: 'Sécurité Informatique ',
   meta: [
     { name: 'description', content: 'Développez vos compétences en cybersécurité et apprenez à protéger les systèmes informatiques contre les menaces. | Code Lab | Cours et Formations en informatique à Djibouti' },
     { name: 'keywords', content: 'formation,Code Lab,formations,angular,vue, html, css,linux,sécurité,javascript, java, informatique,djibouti, Djibouti, programmation, réseaux, cours, codelab, it+' }

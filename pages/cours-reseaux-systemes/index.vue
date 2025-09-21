@@ -105,7 +105,7 @@ const goPage = (url: string) => router.push(url);
 
 // Page head / SEO
 useHead({
-  title: "RESEAUX - IT+ CODE LAB",
+  title: "RESEAUX ",
   meta: [
     {
       name: "description",

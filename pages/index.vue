@@ -15,7 +15,7 @@ import ProgrammationComponent from "~/components/it-startup/ProgrammationCompone
 import ReseauxInformatiques from "~/components/it-startup/ReseauxInformatiques.vue";
 
 useHead({
-  title: "ACCUEIL - IT+ CODE LAB",
+  title: "ACCUEIL ",
   meta: [
     {
       name: "description",

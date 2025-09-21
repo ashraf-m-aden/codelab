@@ -133,7 +133,7 @@
 
 <script setup>
 useHead({
-  title: "NODE - IT+ CODE LAB",
+  title: "NODE ",
   meta: [
     { name: "description", content: "Plongez dans le monde des backends et créez vos premières applications backends | Code Lab | Cours et Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,nodejs,backend,programmation,cours,Djibouti" }

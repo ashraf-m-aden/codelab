@@ -140,7 +140,7 @@
 
 <script setup>
 useHead({
-  title: "Administration Windows Server - IT+ CODE LAB",
+  title: "Administration Windows Server ",
   meta: [
     { name: "description", content: "Maîtrisez l'administration des serveurs Windows et optimisez la gestion des infrastructures IT. | Code Lab | Cours et Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,windows,serveur,administration,cours,Djibouti" }

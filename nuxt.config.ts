@@ -8,8 +8,10 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+            title: 'CODE LAB IT+ – Formation & Développement',
+      titleTemplate: '%s ·  IT+ CODE LAB',
       meta: [
-        { name: 'description', content: 'CODELAB IT+ Djibouti' }
+        { name: 'description', content: 'CODE LAB IT+ Djibouti' }
       ],
       link: [
         { rel: 'canonical', href: 'https://codelab.codes/' }

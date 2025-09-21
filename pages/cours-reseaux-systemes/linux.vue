@@ -139,7 +139,7 @@
 
 <script setup>
 useHead({
-  title: "Formation Linux - IT+ CODE LAB",
+  title: "Formation Linux ",
   meta: [
     { name: "description", content: "Maîtrisez l'administration Linux et découvrez les bases des systèmes open-source avec notre formation pratique. | Code Lab | Cours et Formations en informatique à Djibouti" },
     { name: "keywords", content: "formation,linux,systèmes,cours,Djibouti,codelab" }
