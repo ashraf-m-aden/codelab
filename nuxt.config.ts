@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   ssr: true,  // enable SSR
   nitro: {
     preset: 'static' // generate static HTML
@@ -12,7 +12,7 @@ export default defineNuxtConfig({
         { name: 'description', content: 'CODELAB IT+ Djibouti' }
       ],
       link: [
-        { rel: 'canonical', href: 'https://codelab.it-advanced-technology.com/' }
+        { rel: 'canonical', href: 'https://codelab.codes/' }
       ]
     }
   },
@@ -25,9 +25,10 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     '@nuxtjs/seo',
     'nuxt-toast',
+    '@nuxtjs/robots',
   ],
    site: {
-      url: 'https://codelab.it-advanced-technology.com'
+      url: 'https://codelab.codes'
     },
   sitemap: {
     crawlLinks: true, // automatically find all pages

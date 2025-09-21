@@ -10,14 +10,14 @@
 				</div>
 			</div>
 
-			<div class="shape1"><img src="~/assets/img/shape1.png" alt="Codelab IT+ formation cours informatique djibouti"></div>
-			<div class="shape2 rotateme"><img src="~/assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti"></div>
-			<div class="shape3"><img src="~/assets/img/shape3.svg" alt="Codelab IT+ formation cours informatique djibouti"></div>
-			<div class="shape4"><img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti"></div>
-			<div class="shape5"><img src="~/assets/img/shape5.png" alt="Codelab IT+ formation cours informatique djibouti"></div>
-			<div class="shape6 rotateme"><img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti"></div>
-			<div class="shape7"><img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti"></div>
-			<div class="shape8 rotateme"><img src="~/assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti"></div>
+			<div class="shape1"><NuxtImg src="/img/shape1.png" alt="Codelab IT+ formation cours informatique djibouti" /></div>
+			<div class="shape2 rotateme"><NuxtImg src="/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" /></div>
+			<div class="shape3"><NuxtImg src="/img/shape3.svg" alt="Codelab IT+ formation cours informatique djibouti" /></div>
+			<div class="shape4"><NuxtImg src="/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" /></div>
+			<div class="shape5"><NuxtImg src="/img/shape5.png" alt="Codelab IT+ formation cours informatique djibouti" /></div>
+			<div class="shape6 rotateme"><NuxtImg src="/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" /></div>
+			<div class="shape7"><NuxtImg src="/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" /></div>
+			<div class="shape8 rotateme"><NuxtImg src="/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" /></div>
 		</div>
 		<!-- End Page Title -->
 
@@ -51,7 +51,7 @@
 					</div>
 
 					<div class="col-lg-6 services-details-image">
-						<img src="~/assets/img/courses/nodejs.png" class="wow fadeInUp" alt="IT+ Code Lab">
+						<NuxtImg src="/img/courses/nodejs.png" class="wow fadeInUp" alt="IT+ Code Lab"/>
 					</div>
 				</div>
 
@@ -59,7 +59,7 @@
 
 				<div class="row align-items-center">
 					<div class="col-lg-6 services-details-image">
-						<img src="~/assets/img/courses/mean.jpg" class="wow fadeInUp" alt="IT+ Code Lab">
+						<NuxtImg src="/img/courses/mean.jpg" class="wow fadeInUp" alt="IT+ Code Lab"/>
 					</div>
 
 					<div class="col-lg-6 services-details">
@@ -87,47 +87,7 @@
 				</div>
 			</div>
 		</section>
-		<!-- End Services Details Area -->
-<!--
-		<div class="container">
-
-			<div class="row  justify-content-center ">
-
-
-				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="pricing-table active-plan">
-						<div class="pricing-header">
-							<h3>Node.js</h3>
-						</div>
-
-						<div class="price">
-							<span><sup>Fdj</sup>15000 <span>/Mois</span></span>
-						</div>
-
-						<div class="pricing-features">
-							<ul>
-								<li class="active">Durée de la formation : 3 mois</li>
-								<li class="active">Matériels requis: PC i5 8GB ram</li>
-
-							</ul>
-
-						</div>
-						<h6>Prérequis: </h6>
-						<div class="pricing-features">
-
-							<ul>
-								<li class="active">Angular ou Vue.js</li>
-								<li class="active">Github</li>
-							</ul>
-						</div>
-
-
-					</div>
-				</div>
-
-			</div>
-		</div> -->
-	</div>
+		</div>
 </template>
 
 

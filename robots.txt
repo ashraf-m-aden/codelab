@@ -1,0 +1,9 @@
+# START nuxt-robots (indexable)
+User-agent: *
+Allow: /
+Disallow: /login
+Disallow: /not-found
+Disallow: /new_course
+
+Sitemap: https://codelab.codes/sitemap.xml
+# END nuxt-robots

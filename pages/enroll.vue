@@ -13,50 +13,50 @@
 
       <!-- Shapes -->
       <div class="shape1">
-        <img
-          src="/assets/img/shape1.png"
+        <NuxtImg
+          src="/img/shape1.png"
           alt="Codelab IT+ formation cours informatique djibouti"
         />
       </div>
       <div class="shape2 rotateme">
-        <img
-          src="/assets/img/shape2.svg"
+        <NuxtImg
+          src="/img/shape2.svg"
           alt="Codelab IT+ formation cours informatique djibouti"
         />
       </div>
       <div class="shape3">
-        <img
-          src="/assets/img/shape3.svg"
+        <NuxtImg
+          src="/img/shape3.svg"
           alt="Codelab IT+ formation cours informatique djibouti"
         />
       </div>
       <div class="shape4">
-        <img
-          src="/assets/img/shape4.svg"
+        <NuxtImg
+          src="/img/shape4.svg"
           alt="Codelab IT+ formation cours informatique djibouti"
         />
       </div>
       <div class="shape5">
-        <img
-          src="/assets/img/shape5.png"
+        <NuxtImg
+          src="/img/shape5.png"
           alt="Codelab IT+ formation cours informatique djibouti"
         />
       </div>
       <div class="shape6 rotateme">
-        <img
-          src="/assets/img/shape4.svg"
+        <NuxtImg
+          src="/img/shape4.svg"
           alt="Codelab IT+ formation cours informatique djibouti"
         />
       </div>
       <div class="shape7">
-        <img
-          src="/assets/img/shape4.svg"
+        <NuxtImg
+          src="/img/shape4.svg"
           alt="Codelab IT+ formation cours informatique djibouti"
         />
       </div>
       <div class="shape8 rotateme">
-        <img
-          src="/assets/img/shape2.svg"
+        <NuxtImg
+          src="/img/shape2.svg"
           alt="Codelab IT+ formation cours informatique djibouti"
         />
       </div>
@@ -242,13 +242,13 @@
 
       <!-- Shapes at bottom -->
       <div class="shape8 rotateme">
-        <img src="/assets/img/shape2.svg" alt="" />
+        <NuxtImg src="/img/shape2.svg" alt="" />
       </div>
       <div class="shape2 rotateme">
-        <img src="/assets/img/shape2.svg" alt="" />
+        <NuxtImg src="/img/shape2.svg" alt="" />
       </div>
-      <div class="shape7"><img src="/assets/img/shape4.svg" alt="" /></div>
-      <div class="shape4"><img src="/assets/img/shape4.svg" alt="" /></div>
+      <div class="shape7"><NuxtImg src="/img/shape4.svg" alt="" /></div>
+      <div class="shape4"><NuxtImg src="/img/shape4.svg" alt="" /></div>
     </section>
   </div>
 </template>
@@ -289,7 +289,8 @@ const register = async (formation: FormationType) => {
   await store.updateFormation(formation)  
   if (import.meta.client) {
 
-  toast.success('Enregistrement effectué avec succès')}
+  toast.success({ message:'Enregistrement effectué avec succès'})
+    }
   showModal.value = false
 
   const phoneNumber = '25377151875'
@@ -303,7 +304,7 @@ const imInterested = async (formation: FormationType) => {
   await store.updateFormation(formation)
     if (import.meta.client) {
 
-  toast.success('Enregistrement effectué avec succès')
+  toast.success({ message:'Enregistrement effectué avec succès'})
     }
   showModalInterestd.value = false
 }

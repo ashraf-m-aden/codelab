@@ -16,7 +16,7 @@
                 <slide>
                     <div class="single-team">
                         <div class="team-image">
-                            <img src="~/assets/img/team-image/1.jpg" alt="IT+ Code Lab">
+                            <NuxtImg src="/img/team-image/1.jpg" alt="IT+ Code Lab"/>
                         </div>
 
                         <div class="team-content">
@@ -36,7 +36,7 @@
                                         <vue-feather type="linkedin"></vue-feather>
                                     </a></li>
                                 <li><a href="#">
-                                        <vue-feather type="gitlab"></vue-feather>
+                                        <vue-feather type="gitLab"/></vue-feather>
                                     </a></li>
                             </ul>
 
@@ -48,7 +48,7 @@
                 <slide>
                     <div class="single-team">
                         <div class="team-image">
-                            <img src="~/assets/img/team-image/2.jpg" alt="IT+ Code Lab">
+                            <NuxtImg src="/img/team-image/2.jpg" alt="IT+ Code Lab"/>
                         </div>
 
                         <div class="team-content">
@@ -68,7 +68,7 @@
                                         <vue-feather type="linkedin"></vue-feather>
                                     </a></li>
                                 <li><a href="#">
-                                        <vue-feather type="gitlab"></vue-feather>
+                                        <vue-feather type="gitLab"/></vue-feather>
                                     </a></li>
                             </ul>
 
@@ -80,7 +80,7 @@
                 <slide>
                     <div class="single-team">
                         <div class="team-image">
-                            <img src="~/assets/img/team-image/3.jpg" alt="IT+ Code Lab">
+                            <NuxtImg src="/img/team-image/3.jpg" alt="IT+ Code Lab"/>
                         </div>
 
                         <div class="team-content">
@@ -100,7 +100,7 @@
                                         <vue-feather type="linkedin"></vue-feather>
                                     </a></li>
                                 <li><a href="#">
-                                        <vue-feather type="gitlab"></vue-feather>
+                                        <vue-feather type="gitLab"/></vue-feather>
                                     </a></li>
                             </ul>
 
@@ -112,7 +112,7 @@
                 <slide>
                     <div class="single-team">
                         <div class="team-image">
-                            <img src="~/assets/img/team-image/4.jpg" alt="IT+ Code Lab">
+                            <NuxtImg src="/img/team-image/4.jpg" alt="IT+ Code Lab"/>
                         </div>
 
                         <div class="team-content">
@@ -132,7 +132,7 @@
                                         <vue-feather type="linkedin"></vue-feather>
                                     </a></li>
                                 <li><a href="#">
-                                        <vue-feather type="gitlab"></vue-feather>
+                                        <vue-feather type="gitLab"/></vue-feather>
                                     </a></li>
                             </ul>
 
@@ -144,7 +144,7 @@
                 <slide>
                     <div class="single-team">
                         <div class="team-image">
-                            <img src="~/assets/img/team-image/5.jpg" alt="IT+ Code Lab">
+                            <NuxtImg src="/img/team-image/5.jpg" alt="IT+ Code Lab"/>
                         </div>
 
                         <div class="team-content">
@@ -164,7 +164,7 @@
                                         <vue-feather type="linkedin"></vue-feather>
                                     </a></li>
                                 <li><a href="#">
-                                        <vue-feather type="gitlab"></vue-feather>
+                                        <vue-feather type="gitLab"/></vue-feather>
                                     </a></li>
                             </ul>
 
@@ -176,7 +176,7 @@
                 <slide>
                     <div class="single-team">
                         <div class="team-image">
-                            <img src="~/assets/img/team-image/1.jpg" alt="IT+ Code Lab">
+                            <NuxtImg src="/img/team-image/1.jpg" alt="IT+ Code Lab"/>
                         </div>
 
                         <div class="team-content">
@@ -196,7 +196,7 @@
                                         <vue-feather type="linkedin"></vue-feather>
                                     </a></li>
                                 <li><a href="#">
-                                        <vue-feather type="gitlab"></vue-feather>
+                                        <vue-feather type="gitLab"/></vue-feather>
                                     </a></li>
                             </ul>
 
@@ -208,7 +208,7 @@
                 <slide>
                     <div class="single-team">
                         <div class="team-image">
-                            <img src="~/assets/img/team-image/2.jpg" alt="IT+ Code Lab">
+                            <NuxtImg src="/img/team-image/2.jpg" alt="IT+ Code Lab"/>
                         </div>
 
                         <div class="team-content">
@@ -228,7 +228,7 @@
                                         <vue-feather type="linkedin"></vue-feather>
                                     </a></li>
                                 <li><a href="#">
-                                        <vue-feather type="gitlab"></vue-feather>
+                                        <vue-feather type="gitLab"/></vue-feather>
                                     </a></li>
                             </ul>
 
@@ -240,7 +240,7 @@
                 <slide>
                     <div class="single-team">
                         <div class="team-image">
-                            <img src="~/assets/img/team-image/3.jpg" alt="IT+ Code Lab">
+                            <NuxtImg src="/img/team-image/3.jpg" alt="IT+ Code Lab"/>
                         </div>
 
                         <div class="team-content">
@@ -260,7 +260,7 @@
                                         <vue-feather type="linkedin"></vue-feather>
                                     </a></li>
                                 <li><a href="#">
-                                        <vue-feather type="gitlab"></vue-feather>
+                                        <vue-feather type="gitLab"/></vue-feather>
                                     </a></li>
                             </ul>
 
@@ -272,7 +272,7 @@
                 <slide>
                     <div class="single-team">
                         <div class="team-image">
-                            <img src="~/assets/img/team-image/4.jpg" alt="IT+ Code Lab">
+                            <NuxtImg src="/img/team-image/4.jpg" alt="IT+ Code Lab"/>
                         </div>
 
                         <div class="team-content">
@@ -292,7 +292,7 @@
                                         <vue-feather type="linkedin"></vue-feather>
                                     </a></li>
                                 <li><a href="#">
-                                        <vue-feather type="gitlab"></vue-feather>
+                                        <vue-feather type="gitLab"/></vue-feather>
                                     </a></li>
                             </ul>
 
@@ -304,7 +304,7 @@
                 <slide>
                     <div class="single-team">
                         <div class="team-image">
-                            <img src="~/assets/img/team-image/5.jpg" alt="IT+ Code Lab">
+                            <NuxtImg src="/img/team-image/5.jpg" alt="IT+ Code Lab"/>
                         </div>
 
                         <div class="team-content">
@@ -324,7 +324,7 @@
                                         <vue-feather type="linkedin"></vue-feather>
                                     </a></li>
                                 <li><a href="#">
-                                        <vue-feather type="gitlab"></vue-feather>
+                                        <vue-feather type="gitLab"/></vue-feather>
                                     </a></li>
                             </ul>
 

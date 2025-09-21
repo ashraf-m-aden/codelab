@@ -10,14 +10,14 @@
         </div>
       </div>
 
-      <div class="shape1"><img src="/img/shape1.png" alt="shape" ></div>
-      <div class="shape2 rotateme"><img src="/img/shape2.svg" alt="shape" ></div>
-      <div class="shape3"><img src="/img/shape3.svg" alt="shape" ></div>
-      <div class="shape4"><img src="/img/shape4.svg" alt="shape" ></div>
-      <div class="shape5"><img src="/img/shape5.png" alt="shape" ></div>
-      <div class="shape6 rotateme"><img src="/img/shape4.svg" alt="shape" ></div>
-      <div class="shape7"><img src="/img/shape4.svg" alt="shape" ></div>
-      <div class="shape8 rotateme"><img src="/img/shape2.svg" alt="shape" ></div>
+      <div class="shape1"><NuxtImg src="/img/shape1.png" alt="shape"/></div>
+      <div class="shape2 rotateme"><NuxtImg src="/img/shape2.svg" alt="shape"/></div>
+      <div class="shape3"><NuxtImg src="/img/shape3.svg" alt="shape"/></div>
+      <div class="shape4"><NuxtImg src="/img/shape4.svg" alt="shape"/></div>
+      <div class="shape5"><NuxtImg src="/img/shape5.png" alt="shape"/></div>
+      <div class="shape6 rotateme"><NuxtImg src="/img/shape4.svg" alt="shape"/></div>
+      <div class="shape7"><NuxtImg src="/img/shape4.svg" alt="shape"/></div>
+      <div class="shape8 rotateme"><NuxtImg src="/img/shape2.svg" alt="shape"/></div>
     </div>
     <!-- End Page Title -->
 
@@ -59,12 +59,12 @@
       </div>
 
       <!-- Decorative shapes -->
-      <div class="shape2 rotateme"><img src="/img/shape2.svg" alt="shape" ></div>
-      <div class="shape3"><img src="/img/shape3.svg" alt="shape" ></div>
-      <div class="shape4"><img src="/img/shape4.svg" alt="shape" ></div>
-      <div class="shape6 rotateme"><img src="/img/shape4.svg" alt="shape" ></div>
-      <div class="shape7"><img src="/img/shape4.svg" alt="shape" ></div>
-      <div class="shape8 rotateme"><img src="/img/shape2.svg" alt="shape" ></div>
+      <div class="shape2 rotateme"><NuxtImg src="/img/shape2.svg" alt="shape"/></div>
+      <div class="shape3"><NuxtImg src="/img/shape3.svg" alt="shape"/></div>
+      <div class="shape4"><NuxtImg src="/img/shape4.svg" alt="shape"/></div>
+      <div class="shape6 rotateme"><NuxtImg src="/img/shape4.svg" alt="shape"/></div>
+      <div class="shape7"><NuxtImg src="/img/shape4.svg" alt="shape"/></div>
+      <div class="shape8 rotateme"><NuxtImg src="/img/shape2.svg" alt="shape"/></div>
     </div>
     <!-- End Login Area -->
   </div>

@@ -12,28 +12,28 @@
 
       <!-- Shapes -->
       <div class="shape1">
-        <img src="~/assets/img/shape1.png" alt="Codelab IT+ formation cours informatique djibouti" >
+        <NuxtImg src="/img/shape1.png" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape2 rotateme">
-        <img src="~/assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" >
+        <NuxtImg src="/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape3">
-        <img src="~/assets/img/shape3.svg" alt="Codelab IT+ formation cours informatique djibouti" >
+        <NuxtImg src="/img/shape3.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape4">
-        <img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" >
+        <NuxtImg src="/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape5">
-        <img src="~/assets/img/shape5.png" alt="Codelab IT+ formation cours informatique djibouti" >
+        <NuxtImg src="/img/shape5.png" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape6 rotateme">
-        <img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" >
+        <NuxtImg src="/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape7">
-        <img src="~/assets/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" >
+        <NuxtImg src="/img/shape4.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
       <div class="shape8 rotateme">
-        <img src="~/assets/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" >
+        <NuxtImg src="/img/shape2.svg" alt="Codelab IT+ formation cours informatique djibouti" />
       </div>
     </div>
     <!-- End Page Title -->
@@ -48,7 +48,7 @@
             class="col-lg-4 col-sm-6 col-md-6"
           >
             <div class="agency-services-box" @click="goPage(course.url)">
-              <img :src="course.img" :alt="course.name" >
+              <NuxtImg :src="course.img" :alt="course.name" />
 
               <div class="content">
                 <NuxtLink :to="course.url">
@@ -65,22 +65,22 @@
 
       <!-- Shapes repeated as before -->
       <div class="shape2 rotateme">
-        <img src="~/assets/img/shape2.svg" alt="" >
+        <NuxtImg src="/img/shape2.svg" alt="" />
       </div>
       <div class="shape3">
-        <img src="~/assets/img/shape3.svg" alt="" >
+        <NuxtImg src="/img/shape3.svg" alt="" />
       </div>
       <div class="shape4">
-        <img src="~/assets/img/shape4.svg" alt="" >
+        <NuxtImg src="/img/shape4.svg" alt="" />
       </div>
       <div class="shape6 rotateme">
-        <img src="~/assets/img/shape4.svg" alt="" >
+        <NuxtImg src="/img/shape4.svg" alt="" />
       </div>
       <div class="shape7">
-        <img src="~/assets/img/shape4.svg" alt="" >
+        <NuxtImg src="/img/shape4.svg" alt="" />
       </div>
       <div class="shape8 rotateme">
-        <img src="~/assets/img/shape2.svg" alt="" >
+        <NuxtImg src="/img/shape2.svg" alt="" />
       </div>
     </div>
     <!-- End Services Area -->
